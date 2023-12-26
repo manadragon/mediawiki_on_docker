@@ -30,7 +30,7 @@ $wgSitename = "어든미디어위키";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://eodeun.mooo.com:8080";
+$wgServer = "http://eodeun.mooo.com";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -38,8 +38,8 @@ $wgResourceBasePath = $wgScriptPath;
 ## The URL paths to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
 $wgLogos = [
-	'1x' => "$wgResourceBasePath/resources/assets/change-your-logo.svg",
-	'icon' => "$wgResourceBasePath/resources/assets/change-your-logo.svg",
+	'1x' => "$wgResourceBasePath/resources/assets/logo.png",
+	'icon' => "$wgResourceBasePath/favicon.svg",
 ];
 
 ## UPO means: this is also a user preference option
