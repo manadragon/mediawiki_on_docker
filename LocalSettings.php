@@ -30,7 +30,7 @@ $wgSitename = "어든미디어위키";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://eodeun.mooo.com";
+$wgServer = "https://eodeun.mooo.com";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -128,7 +128,7 @@ $wgGroupPermissions['*']['read'] = false;
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
-$wgDefaultSkin = "monobook";
+$wgDefaultSkin = "vector";
 
 # Enabled skins.
 # The following skins were automatically enabled:
@@ -140,4 +140,5 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
-
+wfLoadExtension( 'VisualEditor' );
+wfLoadExtension( 'TemplateData' );

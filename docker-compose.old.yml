@@ -19,7 +19,6 @@ services:
       - ./logo.png:/var/www/html/resources/assets/logo.png
       - ./favicon.ico:/var/www/html/favicon.ico
       - ./eodeun.mooo.com.conf:/etc/apache2/sites-enabled/000-default.conf
-      - ./letsencrypt:/etc/letsencrypt
   # This key also defines the name of the database host used during setup instead of the default "localhost"
 
   database:
